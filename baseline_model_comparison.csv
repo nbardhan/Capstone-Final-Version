@@ -1,0 +1,4 @@
+Model,Train Time (s),Train Acc,Test Acc
+DecisionTree,0.002,1.0,1.0
+KNN,0.002,0.9816,0.967
+Logistic,0.005,0.9625,0.9616
