@@ -3,7 +3,7 @@
 ## Overview
 This project performs customer segmentation and value prediction using retail transaction data. It combines the classic **RFM (Recency, Frequency, Monetary)** marketing framework with a **k-Nearest Neighbors (k-NN)** classifier to identify and predict high-value customers.
 
-The goal is to demonstrate how transactional data can be cleaned, engineered, and modeled to support data-driven marketing and retention strategies.
+The goal is to demonstrate how transactional data can be cleaned, engineered, and modeled to support data-driven marketing and retention strategies. I didn’t change the core analysis, but I improved how it’s communicated and interpreted.
 
 ---
 
@@ -66,6 +66,7 @@ These features capture purchasing behavior and customer value.
 
 ---
 
+
 ## Use Cases
 - Customer retention and loyalty programs
 - Targeted marketing campaigns
@@ -79,3 +80,19 @@ These features capture purchasing behavior and customer value.
 - Add time-based validation
 - Incorporate churn prediction
 - Visualize segments more deeply with clustering techniques
+
+---
+
+### Future Enhancements with Deep Learning and Generative AI
+While classical machine learning models were appropriate for this project,
+future iterations could explore deep learning approaches if larger and richer
+datasets become available.
+
+Potential extensions include:
+- Deep neural networks to capture nonlinear customer behavior patterns at scale
+- Sequence-based models (e.g., RNNs or Transformers) to model purchase behavior over time
+- Generative AI tools to automatically generate customer segment summaries
+  for marketing and business stakeholders
+
+These approaches were not implemented here due to the size of the dataset
+and the importance of interpretability for business decision-making.
